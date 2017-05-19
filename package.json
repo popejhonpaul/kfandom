@@ -1,0 +1,30 @@
+{
+  "name": "kfandom",
+  "version": "1.0.0",
+  "description": "A social networking site for KPOP fans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popejhonpaul/kfandom.git"
+  },
+  "author": {
+    "name": "Paul Jhon Villaro",
+    "email": "pgvillaro@up.edu.ph"
+  },
+  "license": "WTFPL",
+  "bug": {
+    "url": "https://github.com/popejhonpaul/kfandom/issues"
+  },
+  "hompage": "https://github.com/popejhonpaul/kfandom#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "cookie-session": "^2.0.0-beta.1",
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7"
+  }
+}
